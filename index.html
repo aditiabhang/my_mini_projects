@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photo Editor by Aditi</title>
+
+    <style>
+        #upload{
+            text-align: center;
+            background: lightpink;
+            border-radius: 20px;
+            font-style: italic;
+        }
+
+        input{
+            margin: 4em 0;
+        }
+
+        #buttons{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 2em 0;
+            border: 2px solid lightpink;
+            border-radius: 10px;
+            padding: 10px;
+            font-style: italic;
+        }
+
+        button{
+            background: lightpink;
+            border-radius: 10px;
+            width: 10em;
+            padding: 10px;
+            font-style: italic;
+        }
+
+        canvas{
+            max-width: 100;
+        }
+    
+    </style>
+
+</head>
+<body>
+    
+    <div id="upload">
+        <label for="uploader">Select file:</label>
+        <input type="file" id="uploader">
+    </div>
+
+    <div id="buttons">
+        <button>Greyscale</button>
+        <button>Sepia Effect</button>
+        <button>Invert</button>
+        <button>RGB > RBG</button>
+        <button>RGB > BGR</button>
+        <button>RGB > GBR</button>
+        <button>RGB > GRB</button>
+        <button>Clear</button>
+    </div>
+
+    <div>
+        <canvas id="canvas"></canvas>
+    </div>
+    
+        <script src="script.js"></script>
+
+</body>
+</html>

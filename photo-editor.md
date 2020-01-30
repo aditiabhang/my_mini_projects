@@ -1,0 +1,3 @@
+## Javascript Photo Editor.
+
+Initially I created a photo editor user interface with HTML and styling is done using CSS. Incorporated Javascript and linked external files by uploading image files to further apply photo effects. Manipulated the RBG pixels to apply various photo effects by looping on the pixel data of the uploaded image on the canvas 2D context. Effects like Greyscale, Sepia, RGB > RBG, RGB > BGR, RGB > GBR, RGB > GRB are included in the photo editor. Also incorporated a clear button to reset all the effects.
